@@ -104,3 +104,25 @@
 #down-btn {
     width: 100%;
 }
+
+.numeric-buttons {
+    border: solid 1px ;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+}
+
+.button-row button {
+    width: 32%;
+}
+
