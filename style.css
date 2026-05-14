@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid black;
+    background-color: #1c1c1c;
     border-radius: 25px;
     height: 548px;
     width: 280px;
@@ -41,18 +42,19 @@
     height: 50%;
     border: 1px solid black;
     border-radius: 15px 15px 0px 0px;
+    background-color: #585656;
 }
 
 .mobile-header {
     text-align: center;
     padding: 5px;
-    border-bottom: 1px solid black;
 }
 
 .mobile-screen {
     border: solid 1px black;
     height: 80%;
     margin: 10px;
+    background-color: black;
 }
 
 .control-buttons {
@@ -126,3 +128,8 @@
     width: 32%;
 }
 
+button {
+    background-color: #746e6e;
+    cursor: pointer;
+    color: white;
+}
