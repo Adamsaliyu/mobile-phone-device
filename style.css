@@ -67,12 +67,25 @@
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
+    height: 100%;
+    padding: 5px;
+}
+
+.left-control button {
+    height: 40%;
+
 }
 
 .center-control {
     border: solid 1px black;
     display: flex;
+    align-items: center;
+    padding: 5px;
 
+}
+
+.center-btn {
+    display: flex;
 }
 
 .right-control {
@@ -80,4 +93,14 @@
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
+    height: 100%;
+    padding: 5px;
+}
+
+#up-btn {
+    width: 100%;
+}
+
+#down-btn {
+    width: 100%;
 }
