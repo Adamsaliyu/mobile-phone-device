@@ -132,4 +132,11 @@ button {
     background-color: #746e6e;
     cursor: pointer;
     color: white;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #b1aeae;
+    color: black;
 }
